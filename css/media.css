@@ -8,4 +8,12 @@
     .header-block {
         flex-direction: column;
     }
+
+    .hero-section {
+        margin-top: 20px;
+    }
+
+    .hero-section-block {
+        flex-direction: column;
+    }
 }

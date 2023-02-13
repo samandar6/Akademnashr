@@ -3,7 +3,7 @@
     --black: black;
     --white: white;
     --rob: "Roboto";
-    --rob2: 'Roboto Condensed';
+    --rob2: "Roboto Condenced";
 }
 
 * {
@@ -13,14 +13,8 @@
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
     .container {
         max-width: 1200px;
-        width: 100%;
         margin: 0 auto;
     }
 
