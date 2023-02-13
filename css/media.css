@@ -1,0 +1,11 @@
+@media screen and (max-width: 1130px){
+    .header-block {
+        gap: 0 90px;
+    }
+}
+
+@media screen and (max-width: 930px) {
+    .header-block {
+        flex-direction: column;
+    }
+}

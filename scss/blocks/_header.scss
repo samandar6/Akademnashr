@@ -1,0 +1,39 @@
+.header {
+    &-block {
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        gap: 0 263px;
+
+        &-nav {
+            &-ul {
+                display: flex;
+                gap: 0 32px;
+                align-items: center;
+                
+                &-li {
+                    &__link {
+                        font-family: var(--rob); 
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 13px;
+                        line-height: 15px;
+                        letter-spacing: 1px;
+                        text-transform: uppercase;
+                        color: var(--black);
+                    }
+
+                    .white {
+                        color: var(--white);
+                    }
+                }
+
+                &-li:nth-child(5) {
+                    padding: 15px 45px;
+                    background: #FF7500;
+                    border-radius: 4px;
+                }
+            }
+        }
+    }
+}

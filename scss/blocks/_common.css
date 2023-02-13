@@ -1,0 +1,1 @@
+:root{--orange: #FF7500;--black: black;--white: white;--rob: "Roboto";--rob2: "Roboto Condensed"}*{margin:0;padding:0;box-sizing:border-box}body{display:flex;flex-direction:column;align-items:center;justify-content:center}body .container{max-width:1200px;width:100%;margin:0 auto}body li{list-style-type:none}body a{text-decoration:none}

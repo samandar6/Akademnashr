@@ -1,3 +1,11 @@
+:root {
+  --orange: #FF7500;
+  --black: black;
+  --white: white;
+  --rob: "Roboto";
+  --rob2: 'Roboto Condensed';
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -22,7 +30,8 @@ body {
 }
 
 body .container {
-  width: 1200px;
+  max-width: 1200px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -32,5 +41,47 @@ body li {
 
 body a {
   text-decoration: none;
+}
+
+.header-block {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 0 263px;
+}
+
+.header-block-nav-ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0 32px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-block-nav-ul-li__link {
+  font-family: var(--rob);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--black);
+}
+
+.header-block-nav-ul-li .white {
+  color: var(--white);
+}
+
+.header-block-nav-ul-li:nth-child(5) {
+  padding: 15px 45px;
+  background: #FF7500;
+  border-radius: 4px;
 }
 /*# sourceMappingURL=main.css.map */
