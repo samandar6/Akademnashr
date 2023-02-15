@@ -218,4 +218,89 @@ body a {
   max-width: 284px;
   padding-top: 12px;
 }
+
+.sale {
+  margin-top: 250px;
+}
+
+.sale-block {
+  min-height: 419px;
+  background: #252420;
+  border-radius: 12px;
+  position: relative;
+}
+
+.sale-block-flexbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 30px 0;
+}
+
+.sale-block-flexbox-textBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 24px 0;
+  padding-left: 64px;
+}
+
+.sale-block-flexbox-textBox__title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 120%;
+  letter-spacing: 0.5px;
+  color: #FFFFFF;
+  max-width: 373px;
+}
+
+.sale-block-flexbox-textBox__text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.5px;
+  color: #FFFFFF;
+  max-width: 440px;
+}
+
+.sale-block-flexbox-textBox__text span {
+  color: var(--orange);
+}
+
+.sale-block-flexbox-textBox__btn {
+  width: 152px;
+  height: 39px;
+  background: #FF7500;
+  border-radius: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: var(--rob);
+  color: var(--white);
+  margin-bottom: 40px;
+}
+
+.sale-block-flexbox__img {
+  padding-right: 64px;
+}
 /*# sourceMappingURL=main.css.map */

@@ -48,6 +48,26 @@
     .why-us-block-flexbox-innerBox__text {
         text-align: center;
     }
+    
+    .sale-block-flexbox {
+        flex-direction: column-reverse;
+        text-align: center;
+        place-items: center;
+    }
+    
+    .sale-block-flexbox-textBox {
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+        padding-left: 0;
+    }
+    
+    .sale-block-flexbox__img {
+        padding: 0;
+        width: 60%;
+        padding-top: 32px;
+        padding-left: 0;
+    }
 }
 
 @media  (max-width:660px) {
@@ -109,5 +129,18 @@
     .why-us-block__title {
         font-size: 42px;
         width: 300px;
+    }
+    
+    .sale {
+        margin-top: 150px;
+    }
+    
+    .sale-block-flexbox-textBox__title {
+        width: 80%;
+        font-size: 24px;
+    }
+    
+    .sale-block-flexbox-textBox__text {
+        width: 80%;
     }
 }
