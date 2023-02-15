@@ -10,6 +10,8 @@
                 display: flex;
                 gap: 0 32px;
                 align-items: center;
+                justify-content: space-between;
+                width: 100%;
                 
                 &-li {
                     &__link {
@@ -21,6 +23,7 @@
                         letter-spacing: 1px;
                         text-transform: uppercase;
                         color: var(--black);
+                        white-space: nowrap;
                     }
 
                     .white {
@@ -34,10 +37,6 @@
                     border-radius: 4px;
                 }
             }
-        }
-
-        .visually-hidden {
-            overflow: hidden;
         }
     }
 }

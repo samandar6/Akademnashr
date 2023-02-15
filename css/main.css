@@ -15,6 +15,7 @@
 
 body .container {
   max-width: 1200px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -45,6 +46,10 @@ body a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
 }
 
 .header-block-nav-ul-li__link {
@@ -56,6 +61,7 @@ body a {
   letter-spacing: 1px;
   text-transform: uppercase;
   color: var(--black);
+  white-space: nowrap;
 }
 
 .header-block-nav-ul-li .white {
@@ -68,12 +74,8 @@ body a {
   border-radius: 4px;
 }
 
-.header-block .visually-hidden {
-  overflow: hidden;
-}
-
 .hero-section {
-  max-width: 1440px;
+  max-width: 100vw;
   min-height: 488px;
   margin: 0 auto;
   background: #252420;
@@ -95,6 +97,11 @@ body a {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding-top: 30px;
+  place-items: center;
+}
+
+.hero-section-block__img {
+  margin: 0 auto;
 }
 
 .hero-section-block-textBox {
@@ -164,6 +171,7 @@ body a {
 
 .why-us-block {
   margin-top: 200px;
+  place-items: center;
 }
 
 .why-us-block__title {
